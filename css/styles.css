@@ -1,0 +1,217 @@
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+fieldset,
+input,
+select,
+button,
+textarea,
+figure {
+  margin: 0;
+  font-size: 100%;
+  max-width: 100%;
+}
+fieldset,
+legend,
+a img {
+  padding: 0;
+  border: 0;
+}
+time {
+  display: inline;
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+-moz-document url-prefix() a:active {
+  outline: 0;
+}
+[tabindex]:not(a) {
+  outline: 0;
+}
+ul {
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-rendering: optimizeLegibility;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+address {
+  font-style: normal;
+}
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clear {
+  zoom: 1;
+}
+.shy {
+  position: absolute;
+  left: -9999px;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  background-color: #d9d9de;
+}
+body * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+legend,
+input,
+textarea,
+button {
+  font-family: 'proxima-nova-condensed', 'Arial Narrow', sans-serif;
+  line-height: 1.4;
+  color: #575561;
+}
+a:link,
+a:visited {
+  color: #575561;
+  border-bottom: 1px solid #aea9fd;
+  border-bottom: 1px solid rgba(93,83,252,0.50);
+  line-height: 1.25;
+  -webkit-transition: color 0.2s, border-color 0.2s;
+  -moz-transition: color 0.2s, border-color 0.2s;
+  -ms-transition: color 0.2s, border-color 0.2s;
+  -o-transition: color 0.2s, border-color 0.2s;
+  transition: color 0.2s, border-color 0.2s;
+}
+a:focus,
+a:hover {
+  color: #5d53fc;
+  border-bottom: 1px solid #5d53fc;
+  border-bottom: 1px solid rgba(93,83,252,0.85);
+}
+p,
+ul,
+ol,
+dl,
+blockquote,
+table,
+figure {
+  margin: 0.8em 0;
+}
+.clearfix:after,
+.content:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+hgroup > :first-child {
+  margin-bottom: 0.3em;
+}
+hgroup > :first-child + * {
+  margin-top: 0.3em;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.1;
+  font-family: 'ff-netto-web', 'Arial Narrow', sans-serif;
+}
+h1 {
+  color: #333;
+  font-size: 32px;
+  font-size: 3.2rem;
+  margin: 0.7em 0;
+}
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-size: 2.4rem;
+  margin: 0.8em 0;
+}
+h3 {
+  color: #333;
+  font-size: 19px;
+  font-size: 1.9rem;
+  margin: 1em 0;
+}
+h4 {
+  color: #333;
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin: 1.3em 0;
+}
+header {
+  width: 235px;
+  margin: 0 auto;
+  padding: 2.7em 0 3em;
+}
+header h1 {
+  font-size: 42px;
+  font-size: 4.2rem;
+  margin: 0;
+}
+header h2 {
+  margin: 0;
+  float: right;
+}
+.content {
+  width: 90%;
+  max-width: 465px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+section {
+  float: left;
+  width: 100%;
+  padding: 1em;
+  background-color: #f4f4f4;
+}
+section h1 {
+  margin: 0;
+}
+section h1 a:link {
+  border-bottom: none;
+  color: #5d53fc;
+}
+section h1:after {
+  content: '⁂ Drag ’n drop into your bookmarks bar';
+  display: block;
+  font-size: 16px;
+  font-size: 1.6rem;
+  opacity: 0.4;
+  padding: 0.2em 0 0;
+}

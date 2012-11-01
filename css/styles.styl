@@ -1,0 +1,123 @@
+@import "utils/reset"
+@import "utils/mixins"
+
+// Variables -----------------------------------------------------------------
+$proximastack = 'proxima-nova-condensed', 'Arial Narrow', sans-serif
+$nettostack = 'ff-netto-web', 'Arial Narrow', sans-serif
+$textcolor = #575561
+$heliomcolor = #5d53fc
+
+// Base ----------------------------------------------------------------------
+html
+  font-size: 62.5%
+  height: 100%
+
+body
+  font-size: 16
+  background-color: #d9d9de
+
+  *
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+body, legend, input, textarea, button
+  font-family: $proximastack
+  line-height: 1.4
+  color: $textcolor
+
+a:link, a:visited
+  color: $textcolor
+  border-bottom: 1px solid #aea9fd
+  border-bottom: 1px solid rgba(93,83,252,.5)
+  line-height: 1.25
+
+  -webkit-transition: color .2s, border-color .2s
+  -moz-transition: color .2s, border-color .2s
+  -ms-transition: color .2s, border-color .2s
+  -o-transition: color .2s, border-color .2s
+  transition: color .2s, border-color .2s
+
+a:focus, a:hover
+  color: $heliomcolor
+  border-bottom: 1px solid $heliomcolor
+  border-bottom: 1px solid rgba(93,83,252,.85)
+
+p, ul, ol, dl, blockquote, table, figure { margin: .8em 0 }
+
+.clearfix
+  &:after
+    content: ''
+    display: block
+    clear: both
+
+// Headings ------------------------------------------------------------------
+hgroup > :first-child { margin-bottom: .3em }
+hgroup > :first-child + * { margin-top: .3em }
+
+h1, h2, h3, h4
+  line-height: 1.1
+  font-family: $nettostack
+
+h1
+  color: #333
+  font-size: 32
+  margin: .7em 0
+
+h2
+  color: #333
+  font-size: 24
+  margin: .8em 0
+
+h3
+  color: #333
+  font-size: 19
+  margin: 1em 0
+
+h4
+  color: #333
+  font-size: 16
+  margin: 1.3em 0
+
+// Header --------------------------------------------------------------------
+header
+  width: 235px
+  margin: 0 auto
+  padding: 2.7em 0 3em
+
+  h1
+    font-size: 42
+    margin: 0
+
+  h2
+    margin: 0
+    float: right
+
+// Content -------------------------------------------------------------------
+.content
+  @extend .clearfix
+  width: 90%
+  max-width: 465px
+  margin: 0 auto
+  padding: 2em 0
+
+// Section -------------------------------------------------------------------
+section
+  float: left
+  width: 100%
+  padding: 1em
+  background-color: #f4f4f4
+
+  h1
+    margin: 0
+
+    a:link
+      border-bottom: none
+      color: $heliomcolor
+
+  h1:after
+    content: '⁂ Drag and drop into your bookmarks bar'
+    display: block
+    font-size: 16
+    opacity: .4
+    padding: .2em 0 0

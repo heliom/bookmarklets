@@ -1,0 +1,3 @@
+[submodule "css/utils"]
+	path = css/utils
+	url = https://github.com/heliom/stylus-utils.git

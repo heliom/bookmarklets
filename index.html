@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Heliom ⁂ Bookmarklets</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript" src="http://use.typekit.com/vmn0qrt.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+    <header>
+      <h1>Bookmarklets</h1>
+      <h2>by <a href="http://heliom.ca">heliom</a></h2>
+    </header>
+
+    <div class="content">
+      <section>
+        <h1><a href="javascript:(function(){
+          if (!window.dropmeme) {
+            var script = document.createElement('script');
+                script.src = 'http://heliom.github.com/bookmarklets/dropmeme/js/scripts.js';
+
+            document.getElementsByTagName('head')[0].appendChild(script);
+          } else {
+            window.dropmeme.init()
+          }
+        })();">DropMeme</a></h1>
+        <p>The <a href="http://dropmeme.com">DropMeme.com</a> bookmarklet will highlight every images on the website you’re visiting and allow you to use the image you want directly in the meme generator.</p>
+      </section>
+    </div>
+
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4fb2be92f5a1f51f860000d7');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+  </body>
+</html>
